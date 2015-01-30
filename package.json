@@ -1,6 +1,6 @@
 {
   "name": "what-line-is-this",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Output a message prefixed with the name and line number of the source file where you outputted the message",
   "main": "index.js",
   "dependencies": {
