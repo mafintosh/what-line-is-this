@@ -1,8 +1,6 @@
 var stackback = require('stackback')
 
 var create = function (pos, log) {
-  if (!log) log = console.log
-
   var what = function (msg) {
     var e = new Error('whatevs')
     var stacks = stackback(e)
@@ -22,4 +20,4 @@ var create = function (pos, log) {
   return what
 }
 
-module.exports = create(0)
+module.exports = create(0, console.log)
