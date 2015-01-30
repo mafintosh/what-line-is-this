@@ -34,7 +34,7 @@ Running it will produce the following output
 If you wanted to output the line of the calling method instead use `what.stack(pos)`
 to change the stack frame being used.
 
-```
+``` js
 var what = require('what-line-is-this').stack(1)
 
 var foo = function() {
