@@ -1,0 +1,26 @@
+{
+  "name": "what-line-is-this",
+  "version": "0.0.0",
+  "description": "Output a message prefixed with the name and line number of the source file where you outputted the message",
+  "main": "index.js",
+  "dependencies": {
+    "stackback": "0.0.2"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0",
+    "standard": "^2.2.5"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/what-line-is-this.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/what-line-is-this/issues"
+  },
+  "homepage": "https://github.com/mafintosh/what-line-is-this"
+}
