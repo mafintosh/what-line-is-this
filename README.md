@@ -7,6 +7,8 @@ of the source file where you outputted the message
 npm install what-line-is-this
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/what-line-is-this.svg?style=flat)](http://travis-ci.org/mafintosh/what-line-is-this)
+
 ## Usage
 
 Assuming the following file is saved as `/Users/maf/index.js`
