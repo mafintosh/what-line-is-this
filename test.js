@@ -5,12 +5,13 @@ tape('adds line', function (t) {
   t.plan(2)
 
   var expected = [
-    __filename + ':16 - hello',
-    __filename + ':17 - world'
+    __filename + ':17 - hello',
+    __filename + ':18 - world'
   ]
 
-  var w = what.use(function (msg) {
-    t.same(msg, expected.shift(), 'prints line')
+  var w = what.use(function (...msg) {
+    const m = [ ...msg ].join(' ')
+    t.same(m, expected.shift(), 'prints line')
   })
 
   w('hello')

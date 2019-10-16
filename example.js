@@ -1,4 +1,4 @@
-var what = require('./')
+var what = require('./').relative()
 
 var foo = function () {
   what('line is this?')
